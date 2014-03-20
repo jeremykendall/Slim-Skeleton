@@ -1,5 +1,8 @@
 <?php
+
 require '../vendor/autoload.php';
+
+date_default_timezone_set('UTC');
 
 // Prepare app
 $app = new \Slim\Slim(array(
